@@ -17,6 +17,7 @@ cd rom
 ```
 ## 开始解包
 将 “system.transfer.list” 和 “system.new.dat” 文件放入 “rom” 目录
+
 将system.new.dat.br转为system.new.dat，并删除源文件，如果不想删除源文件可以把 “j” 去掉
 ```sh
 ~/rom/bin/brotli -dj system.new.dat.br
