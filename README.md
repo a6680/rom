@@ -1,6 +1,6 @@
 # 一个简单的rom解包-打包
 
-## 需要的依赖
+
 只在ubuntu20.04用过，需要依赖python3，ubuntu20.04上有自带Python 3.8.10版本，可以通过下面命令查看
 ```
 python3 --version
