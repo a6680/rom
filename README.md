@@ -5,8 +5,12 @@
 ```
 python3 --version
 ```
+安装brotli
+ ```
+ sudo apt install brotli
+ ```
 
-## 拉取项目
+## 拉取文件
 先拉取文件到本地
 ```sh
 git clone https://github.com/a6680/rom.git
@@ -20,7 +24,7 @@ cd rom
 
 将system.new.dat.br转为system.new.dat，并删除源文件，如果不想删除源文件可以把 “j” 去掉
 ```sh
-~/rom/bin/brotli -dj system.new.dat.br
+brotli -dj system.new.dat.br
 ```
 system.new.dat转为system.img
 ```sh
@@ -47,6 +51,6 @@ python3 ~/rom/bin/rimg2sdat.py system.img
 ```
 将system.new.dat转为system.new.dat.br，中间的0是压缩级别，可选(0-9)
 ```sh
-~/rom/bin/brotli -0 system.new.dat
+brotli -0 system.new.dat
 ```
 
